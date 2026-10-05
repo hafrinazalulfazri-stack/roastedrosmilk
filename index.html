@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="RoastedRosMilk — susu panggang dan minuman creamy favoritmu." />
+  <title>RoastedRosMilk — Roast Your Day</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#home" aria-label="RoastedRosMilk home"><span>R</span>oastedRos<strong>Milk</strong></a>
+    <button class="menu-toggle" aria-label="Buka menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    <nav class="nav-links" aria-label="Navigasi utama">
+      <a href="#home">Beranda</a><a href="#menu">Menu</a><a href="#cart">Keranjang (<span id="nav-cart-count">0</span>)</a><a href="#story">Cerita kami</a><a href="#contact">Kontak</a>
+    </nav>
+    <a class="header-order" href="#menu">Pesan sekarang <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><i></i> susu panggang, mood naik</p>
+        <h1>Hangatnya<br /><em>rasa</em> yang<br />bikin dekat.</h1>
+        <p class="hero-text">Susu panggang creamy dengan rasa yang berani. Dibuat fresh setiap hari untuk menemani cerita kecilmu.</p>
+        <div class="hero-actions"><a class="button button-dark" href="#menu">Lihat menu <span>→</span></a><a class="text-link" href="#story">Kenapa kami? <span>↗</span></a></div>
+        <div class="hero-note"><span class="avatars"><b>R</b><b>J</b><b>A</b></span><span><strong>4.9/5</strong><br /><small>dicintai 2.000+ pelanggan</small></span></div>
+      </div>
+      <div class="hero-art">
+        <img class="hero-photo" src="https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=900&q=88" alt="Minuman susu creamy segar dengan es batu" />
+        <div class="blob"></div><div class="sun-label">100% <span>fresh</span></div>
+        <div class="drink drink-main"><div class="cup-lid"></div><div class="cup"><div class="foam"></div><div class="cup-label">RR<br /><small>roastedrosmilk</small></div></div><div class="straw"></div></div>
+        <div class="leaf leaf-one">✦</div><div class="leaf leaf-two">✦</div><div class="art-caption">roast it<br /><em>your way.</em></div>
+      </div>
+    </section>
+
+    <section class="marquee" aria-label="Keunggulan RoastedRosMilk"><span>ROASTED WITH LOVE</span><b>✳</b><span>CREAMY EVERY SIP</span><b>✳</b><span>ROASTED WITH LOVE</span><b>✳</b><span>CREAMY EVERY SIP</span></section>
+
+    <section class="menu-section" id="menu">
+      <div class="section-heading"><div><p class="eyebrow"><i></i> pilih favoritmu</p><h2>Menu yang<br /><em>nggak biasa.</em></h2></div><p class="section-intro">Dari yang klasik sampai yang berani, semuanya diracik dengan susu panggang khas RoastedRosMilk.</p></div>
+      <div class="menu-grid">
+        <article class="menu-card featured"><div class="card-top"><span class="tag">Best seller</span><span class="card-number">01</span></div><div class="mini-drink coffee"><div class="mini-cup"></div></div><div class="card-info"><h3>Roasted Latte</h3><p>Espresso, susu panggang, foam lembut</p><div class="card-bottom"><strong>Rp 22.000</strong><button class="add-button" data-drink="Roasted Latte" data-price="22000">+</button></div></div></article>
+        <article class="menu-card"><div class="card-top"><span class="tag light">New</span><span class="card-number">02</span></div><div class="mini-drink berry"><div class="mini-cup"></div></div><div class="card-info"><h3>Berry Rosé</h3><p>Strawberry, susu panggang, rosé foam</p><div class="card-bottom"><strong>Rp 24.000</strong><button class="add-button" data-drink="Berry Rosé" data-price="24000">+</button></div></div></article>
+        <article class="menu-card"><div class="card-top"><span class="tag light">Creamy</span><span class="card-number">03</span></div><div class="mini-drink matcha"><div class="mini-cup"></div></div><div class="card-info"><h3>Matcha Roast</h3><p>Uji matcha, susu panggang, brown sugar</p><div class="card-bottom"><strong>Rp 25.000</strong><button class="add-button" data-drink="Matcha Roast" data-price="25000">+</button></div></div></article>
+      </div>
+      <div class="menu-more"><a class="text-link" href="#cart">Lihat keranjang <span>→</span></a><span>Mulai dari Rp 18.000</span></div>
+    </section>
+
+    <section class="cart-section" id="cart"><div class="cart-heading"><p class="eyebrow"><i></i> pesananmu</p><h2>Keranjang <span id="cart-count">(0)</span></h2></div><div id="cart-items" class="cart-items"><p class="cart-empty">Belum ada minuman. Klik tombol + pada menu untuk menambahkan.</p></div><div class="cart-summary"><strong>Total pembayaran</strong><strong id="cart-total">Rp 0</strong></div><div class="cart-actions"><button id="receipt-button" class="button button-outline" type="button" disabled>Export struk PDF</button><a class="button button-dark" href="#contact">Pilih pembayaran <span>↓</span></a></div></section>
+
+    <section class="story" id="story"><div class="story-image"><div class="story-sticker">slow<br />made<br /><em>good.</em></div><div class="story-cup"></div></div><div class="story-copy"><p class="eyebrow"><i></i> cerita di balik rasa</p><h2>Setiap teguk,<br /><em>ada ceritanya.</em></h2><p>Kami percaya minuman enak nggak perlu terburu-buru. Susu kami dipanggang perlahan sampai aromanya keluar, lalu diracik dengan bahan pilihan dan sedikit keberanian.</p><a class="button button-outline" href="#contact">Kenal lebih dekat <span>↗</span></a></div></section>
+
+    <section class="contact" id="contact"><div><p class="eyebrow"><i></i> siap untuk hari ini?</p><h2>Pesan sekarang,<br /><em>mood langsung naik.</em></h2></div><div class="contact-card"><p>Ambil sendiri atau kami antar ke depan pintumu.</p><form class="payment-form" id="payment-form"><fieldset><legend>Pilih pembayaran</legend><label><input type="radio" name="payment" value="Transfer Bank" checked /> <span>Transfer Bank</span><small>BCA 1234567890 a.n. RoastedRosMilk</small></label><label><input type="radio" name="payment" value="GoPay" /> <span>GoPay</span><small>0812 3456 7890 a.n. RoastedRosMilk</small></label><label><input type="radio" name="payment" value="ShopeePay" /> <span>ShopeePay</span><small>0812 3456 7890 a.n. RoastedRosMilk</small></label></fieldset><button class="button button-light" type="submit">Lanjut via WhatsApp <span>↗</span></button></form><small>Setiap hari · 09.00 — 21.00 WIB</small></div></section>
+  </main>
+
+  <footer><a class="logo" href="#home"><span>R</span>oastedRos<strong>Milk</strong></a><p>Roast your day, your way.</p><div class="socials"><a href="https://www.instagram.com/rosniaw/" target="_blank" rel="noopener noreferrer" aria-label="Instagram RoastedRosMilk">Instagram</a><a href="https://www.tiktok.com/@rosniaw" target="_blank" rel="noopener noreferrer" aria-label="TikTok RoastedRosMilk">TikTok</a><a href="#contact">WhatsApp</a></div><small>© 2026 RoastedRosMilk</small></footer>
+  <div class="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</body>
+</html>
