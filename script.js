@@ -29,7 +29,7 @@ document.querySelector('#receipt-button').addEventListener('click', () => {
   doc.setTextColor(40, 33, 29); doc.setFontSize(11); doc.text('Detail pesanan', 22, 70); let y = 80;
   items.forEach((item, index) => { const colors = [[255, 247, 237], [247, 231, 206], [244, 220, 193]]; doc.setFillColor(...colors[index % colors.length]); doc.roundedRect(20, y - 7, 170, 18, 3, 3, 'F'); doc.setFontSize(10); doc.text(`${item.name}  x${item.qty}`, 27, y + 4); doc.setFont('helvetica', 'bold'); doc.text(formatPrice(item.price * item.qty), 183, y + 4, { align: 'right' }); doc.setFont('helvetica', 'normal'); y += 24; });
   doc.setDrawColor(142, 79, 53); doc.line(22, y, 188, y); doc.setFont('helvetica', 'bold'); doc.setFontSize(15); doc.text('TOTAL PEMBAYARAN', 22, y + 16); doc.setTextColor(142, 79, 53); doc.text(formatPrice(total), 188, y + 16, { align: 'right' });
-  doc.setTextColor(40, 33, 29); doc.setFont('helvetica', 'normal'); doc.setFontSize(9); doc.text('Tunjukkan struk ini saat melakukan pembayaran.', 22, y + 34); doc.text('Terima kasih sudah memilih Kivé Tea ♡', 22, y + 42);
+  doc.setTextColor(40, 33, 29); doc.setFont('helvetica', 'normal'); doc.setFontSize(9); doc.text('Tunjukkan struk ini saat melakukan pembayaran.', 22, y + 34); doc.text('Terima kasih sudah memilih Kivé Tea', 22, y + 42);
   doc.save(`struk-kive-tea-${Date.now()}.pdf`);
 });
 const buildReceiptFile = () => {
@@ -85,3 +85,4 @@ document.querySelector('#qris-whatsapp')?.addEventListener('click', () => {
   const url = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent) ? `https://wa.me/6281549625766?text=${message}` : `https://web.whatsapp.com/send?phone=6281549625766&text=${message}`;
   window.open(url, '_blank', 'noopener,noreferrer');
 });
+
