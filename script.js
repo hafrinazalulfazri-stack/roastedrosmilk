@@ -19,17 +19,15 @@ document.querySelector('#cart-items').addEventListener('click', event => { const
 document.querySelector('#receipt-button').addEventListener('click', () => {
   const { jsPDF } = window.jspdf || {}; if (!jsPDF) return;
   const doc = new jsPDF(), items = Object.values(cart), total = items.reduce((sum, item) => sum + item.price * item.qty, 0);
-  doc.setFillColor(40, 33, 29); doc.rect(0, 0, 210, 297, 'F');
-  doc.setFillColor(232, 177, 143); doc.roundedRect(12, 12, 186, 273, 6, 6, 'F');
-  doc.setFillColor(142, 79, 53); doc.roundedRect(20, 20, 170, 34, 4, 4, 'F');
-  doc.setTextColor(255, 255, 255); doc.setFontSize(22); doc.setFont('helvetica', 'bold'); doc.text('Kivé Tea', 28, 35);
-  doc.setFontSize(10); doc.setFont('helvetica', 'normal'); doc.text('STRUK PEMBELIAN  •  ROAST YOUR DAY', 28, 46);
-  // Ilustrasi gelas minuman berwarna sebagai elemen visual struk.
-  doc.setFillColor(174, 184, 155); doc.circle(169, 37, 11, 'F'); doc.setFillColor(255, 255, 255); doc.setFontSize(13); doc.text('KT', 162, 41);
-  doc.setTextColor(40, 33, 29); doc.setFontSize(11); doc.text('Detail pesanan', 22, 70); let y = 80;
-  items.forEach((item, index) => { const colors = [[255, 247, 237], [247, 231, 206], [244, 220, 193]]; doc.setFillColor(...colors[index % colors.length]); doc.roundedRect(20, y - 7, 170, 18, 3, 3, 'F'); doc.setFontSize(10); doc.text(`${item.name}  x${item.qty}`, 27, y + 4); doc.setFont('helvetica', 'bold'); doc.text(formatPrice(item.price * item.qty), 183, y + 4, { align: 'right' }); doc.setFont('helvetica', 'normal'); y += 24; });
-  doc.setDrawColor(142, 79, 53); doc.line(22, y, 188, y); doc.setFont('helvetica', 'bold'); doc.setFontSize(15); doc.text('TOTAL PEMBAYARAN', 22, y + 16); doc.setTextColor(142, 79, 53); doc.text(formatPrice(total), 188, y + 16, { align: 'right' });
-  doc.setTextColor(40, 33, 29); doc.setFont('helvetica', 'normal'); doc.setFontSize(9); doc.text('Tunjukkan struk ini saat melakukan pembayaran.', 22, y + 34); doc.text('Terima kasih sudah memilih Kivé Tea', 22, y + 42);
+  doc.setFillColor(224, 242, 255); doc.rect(0, 0, 210, 297, 'F'); doc.setFillColor(255, 255, 255); doc.roundedRect(14, 12, 182, 270, 5, 5, 'F'); doc.setFillColor(20, 112, 183); doc.roundedRect(14, 12, 182, 10, 5, 5, 'F');
+  doc.setTextColor(20, 91, 150); doc.setFont('helvetica', 'bold'); doc.setFontSize(18); doc.text('KIVÉ TEA', 105, 36, { align: 'center' });
+  doc.setTextColor(35, 35, 35); doc.setFontSize(18); doc.text('Bukti struk pembayaran', 105, 53, { align: 'center' });
+  doc.setFillColor(224, 246, 232); doc.roundedRect(67, 59, 76, 10, 5, 5, 'F'); doc.setTextColor(31, 125, 73); doc.setFontSize(8); doc.text('TRANSAKSI QRIS', 105, 66, { align: 'center' });
+  doc.setTextColor(90, 90, 90); doc.setFont('helvetica', 'normal'); doc.setFontSize(12); doc.text('Toko Kive Tea', 105, 79, { align: 'center' });
+  doc.setDrawColor(20, 112, 183); doc.setLineDashPattern([1, 2], 0); doc.line(25, 89, 185, 89); let y = 105;
+  doc.setTextColor(65, 65, 65); doc.setFontSize(12); doc.text('Tanggal', 25, y); doc.text(new Date().toLocaleString('id-ID'), 185, y, { align: 'right' }); y += 17; doc.text('Metode pembayaran', 25, y); doc.text('QRIS', 185, y, { align: 'right' }); y += 17; doc.text('Lokasi', 25, y); doc.text('Toko Kive Tea', 185, y, { align: 'right' }); y += 18; doc.line(25, y, 185, y); y += 20;
+  items.forEach(item => { doc.setTextColor(30, 30, 30); doc.setFont('helvetica', 'bold'); doc.setFontSize(10); doc.text(item.name, 25, y); doc.setFont('helvetica', 'normal'); doc.text(`${item.qty} x ${formatPrice(item.price)}`, 25, y + 6); doc.text(formatPrice(item.price * item.qty), 185, y + 3, { align: 'right' }); y += 18; });
+  doc.setDrawColor(20, 112, 183); doc.line(25, y, 185, y); y += 16; doc.setTextColor(65, 65, 65); doc.setFontSize(10); doc.text('Total item', 25, y); doc.text(String(items.reduce((sum, item) => sum + item.qty, 0)), 185, y, { align: 'right' }); y += 18; doc.setFillColor(232, 246, 255); doc.roundedRect(22, y - 11, 166, 22, 3, 3, 'F'); doc.setTextColor(20, 91, 150); doc.setFont('helvetica', 'bold'); doc.setFontSize(17); doc.text('TOTAL', 28, y + 3); doc.text(formatPrice(total), 182, y + 3, { align: 'right' }); doc.setTextColor(120, 140, 155); doc.setFont('helvetica', 'normal'); doc.setFontSize(9); doc.text('Terima kasih telah berbelanja di Kivé Tea', 105, y + 31, { align: 'center' });
   doc.save(`struk-kive-tea-${Date.now()}.pdf`);
 });
 const buildReceiptFile = () => {

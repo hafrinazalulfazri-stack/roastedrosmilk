@@ -13,3 +13,4 @@
 .qris-panel small{display:block!important;font-size:14px!important;line-height:1.5;color:#425548!important}
 @media(max-width:480px){.qris-panel{padding:18px 14px}.qris-panel img{width:min(100%,320px)}}
 .qris-panel #qris-whatsapp{margin:14px auto 0;cursor:pointer;border:0}
+.menu-photo{width:180px;height:190px;object-fit:cover;border-radius:12px;display:block;box-shadow:8px 9px 0 rgba(20,38,29,.14)}
