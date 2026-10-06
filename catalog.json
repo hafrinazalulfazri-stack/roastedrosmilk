@@ -1,0 +1,6 @@
+{
+  "Tea": { "price": 22000, "active": true, "stock": 100 },
+  "Matcha": { "price": 24000, "active": true, "stock": 100 },
+  "Cendol": { "price": 25000, "active": true, "stock": 100 },
+    "Thai Milk Tea": { "price": 30000, "active": true, "stock": 100 }
+}
