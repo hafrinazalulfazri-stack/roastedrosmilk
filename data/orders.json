@@ -1,0 +1,845 @@
+[
+  {
+    "id": "KT-20261005-FC37DB",
+    "idempotencyKey": "7f342d7e-6143-4a18-947c-dff27a871fd4",
+    "items": [
+      {
+        "name": "Matcha · Large, Less sugar, Normal ice, Boba",
+        "qty": 1,
+        "unitPrice": 33000,
+        "subtotal": 33000
+      },
+      {
+        "name": "Cendol · Large, Less sugar, Normal ice, Cream cheese",
+        "qty": 1,
+        "unitPrice": 35000,
+        "subtotal": 35000
+      }
+    ],
+    "total": 68000,
+    "fulfillment": {
+      "method": "pickup"
+    },
+    "paymentStatus": "menunggu_pembayaran",
+    "fulfillmentStatus": "baru",
+    "createdAt": "2026-10-05T16:32:10.309Z"
+  },
+  {
+    "id": "KT-20261005-BECF0D",
+    "idempotencyKey": "bea49386-9dac-4748-b0c0-cb0f58d34e83",
+    "items": [
+      {
+        "name": "Matcha · Large, Less sugar, Normal ice, Boba",
+        "qty": 1,
+        "unitPrice": 33000,
+        "subtotal": 33000
+      },
+      {
+        "name": "Cendol · Large, Less sugar, Normal ice, Cream cheese",
+        "qty": 1,
+        "unitPrice": 35000,
+        "subtotal": 35000
+      }
+    ],
+    "total": 68000,
+    "fulfillment": {
+      "method": "pickup"
+    },
+    "paymentStatus": "menunggu_pembayaran",
+    "fulfillmentStatus": "baru",
+    "createdAt": "2026-10-05T16:32:14.951Z"
+  },
+  {
+    "id": "KT-20261005-D71245",
+    "idempotencyKey": "e73edc75-9e4a-4efd-96ed-01e5888f19e0",
+    "items": [
+      {
+        "name": "Matcha · Large, Less sugar, Normal ice, Boba",
+        "qty": 1,
+        "unitPrice": 33000,
+        "subtotal": 33000
+      },
+      {
+        "name": "Cendol · Large, Less sugar, Normal ice, Cream cheese",
+        "qty": 1,
+        "unitPrice": 35000,
+        "subtotal": 35000
+      }
+    ],
+    "total": 68000,
+    "fulfillment": {
+      "method": "pickup"
+    },
+    "paymentStatus": "menunggu_pembayaran",
+    "fulfillmentStatus": "baru",
+    "createdAt": "2026-10-05T16:32:18.700Z"
+  },
+  {
+    "id": "KT-20261005-8643B0",
+    "idempotencyKey": "fbdc543c-41bf-4b5a-b52c-f8dcac203640",
+    "items": [
+      {
+        "name": "Matcha · Large, Less sugar, Normal ice, Boba",
+        "qty": 1,
+        "unitPrice": 33000,
+        "subtotal": 33000
+      },
+      {
+        "name": "Cendol · Large, Less sugar, Normal ice, Cream cheese",
+        "qty": 1,
+        "unitPrice": 35000,
+        "subtotal": 35000
+      }
+    ],
+    "total": 68000,
+    "fulfillment": {
+      "method": "pickup"
+    },
+    "paymentStatus": "menunggu_pembayaran",
+    "fulfillmentStatus": "baru",
+    "createdAt": "2026-10-05T16:32:22.785Z"
+  },
+  {
+    "id": "KT-20261005-784FC9",
+    "idempotencyKey": "366cad0f-bf1d-4d5f-8217-bfde3e98d6b3",
+    "items": [
+      {
+        "name": "Matcha · Large, Less sugar, Normal ice, Boba",
+        "qty": 1,
+        "unitPrice": 33000,
+        "subtotal": 33000
+      },
+      {
+        "name": "Cendol · Large, Less sugar, Normal ice, Cream cheese",
+        "qty": 1,
+        "unitPrice": 35000,
+        "subtotal": 35000
+      }
+    ],
+    "total": 68000,
+    "fulfillment": {
+      "method": "pickup"
+    },
+    "paymentStatus": "menunggu_pembayaran",
+    "fulfillmentStatus": "baru",
+    "createdAt": "2026-10-05T16:32:52.421Z"
+  },
+  {
+    "id": "KT-20261005-F33639",
+    "idempotencyKey": "5665c006-1d1b-42a1-a016-a35d75e5837e",
+    "items": [
+      {
+        "name": "Matcha · Large, Less sugar, Normal ice, Boba",
+        "qty": 1,
+        "unitPrice": 33000,
+        "subtotal": 33000
+      },
+      {
+        "name": "Cendol · Large, Less sugar, Normal ice, Cream cheese",
+        "qty": 1,
+        "unitPrice": 35000,
+        "subtotal": 35000
+      }
+    ],
+    "total": 68000,
+    "fulfillment": {
+      "method": "pickup"
+    },
+    "paymentStatus": "menunggu_pembayaran",
+    "fulfillmentStatus": "baru",
+    "createdAt": "2026-10-05T16:32:57.262Z"
+  },
+  {
+    "id": "KT-20261005-1A7C98",
+    "idempotencyKey": "2aed6c10-dd76-43b8-a4ef-57766e83171e",
+    "items": [
+      {
+        "name": "Matcha · Large, Less sugar, Normal ice, Boba",
+        "qty": 1,
+        "unitPrice": 33000,
+        "subtotal": 33000
+      },
+      {
+        "name": "Cendol · Large, Less sugar, Normal ice, Cream cheese",
+        "qty": 1,
+        "unitPrice": 35000,
+        "subtotal": 35000
+      }
+    ],
+    "total": 68000,
+    "fulfillment": {
+      "method": "pickup"
+    },
+    "paymentStatus": "menunggu_pembayaran",
+    "fulfillmentStatus": "baru",
+    "createdAt": "2026-10-05T16:33:00.569Z"
+  },
+  {
+    "id": "KT-20261005-FFEDB1",
+    "idempotencyKey": "aa0e3870-6bb9-4d39-b9ee-38e074364c92",
+    "items": [
+      {
+        "name": "Matcha · Large, Less sugar, Normal ice, Boba",
+        "qty": 1,
+        "unitPrice": 33000,
+        "subtotal": 33000
+      },
+      {
+        "name": "Cendol · Large, Less sugar, Normal ice, Cream cheese",
+        "qty": 1,
+        "unitPrice": 35000,
+        "subtotal": 35000
+      }
+    ],
+    "total": 68000,
+    "fulfillment": {
+      "method": "pickup"
+    },
+    "paymentStatus": "menunggu_pembayaran",
+    "fulfillmentStatus": "baru",
+    "createdAt": "2026-10-05T16:33:01.150Z"
+  },
+  {
+    "id": "KT-20261005-A53D32",
+    "idempotencyKey": "4b15cdc5-2f50-4d7d-aae2-2d3217111e71",
+    "items": [
+      {
+        "name": "Matcha · Large, Less sugar, Normal ice, Boba",
+        "qty": 1,
+        "unitPrice": 33000,
+        "subtotal": 33000
+      },
+      {
+        "name": "Cendol · Large, Less sugar, Normal ice, Cream cheese",
+        "qty": 1,
+        "unitPrice": 35000,
+        "subtotal": 35000
+      }
+    ],
+    "total": 68000,
+    "fulfillment": {
+      "method": "pickup"
+    },
+    "paymentStatus": "menunggu_pembayaran",
+    "fulfillmentStatus": "baru",
+    "createdAt": "2026-10-05T16:37:04.879Z"
+  },
+  {
+    "id": "KT-20261005-C31A62",
+    "idempotencyKey": "117f802d-7295-47f1-9f3a-761b6cbd2a30",
+    "items": [
+      {
+        "name": "Matcha · Large, Less sugar, Normal ice, Boba",
+        "qty": 1,
+        "unitPrice": 33000,
+        "subtotal": 33000
+      },
+      {
+        "name": "Cendol · Large, Less sugar, Normal ice, Cream cheese",
+        "qty": 1,
+        "unitPrice": 35000,
+        "subtotal": 35000
+      }
+    ],
+    "total": 68000,
+    "fulfillment": {
+      "method": "pickup"
+    },
+    "paymentStatus": "menunggu_pembayaran",
+    "fulfillmentStatus": "baru",
+    "createdAt": "2026-10-05T16:37:36.186Z"
+  },
+  {
+    "id": "KT-20261005-416057",
+    "idempotencyKey": "4aefe35b-2506-443d-b3a4-4bf23f6b9fc5",
+    "items": [
+      {
+        "name": "Matcha · Large, Less sugar, Normal ice, Boba",
+        "qty": 1,
+        "unitPrice": 33000,
+        "subtotal": 33000
+      },
+      {
+        "name": "Cendol · Large, Less sugar, Normal ice, Cream cheese",
+        "qty": 1,
+        "unitPrice": 35000,
+        "subtotal": 35000
+      }
+    ],
+    "total": 68000,
+    "fulfillment": {
+      "method": "pickup"
+    },
+    "paymentStatus": "menunggu_pembayaran",
+    "fulfillmentStatus": "baru",
+    "createdAt": "2026-10-05T16:37:46.877Z"
+  },
+  {
+    "id": "KT-20261005-A61621",
+    "idempotencyKey": "b31578d5-f577-4df5-9507-8858fdbbac28",
+    "items": [
+      {
+        "name": "Cendol · Regular, Normal, Less ice, Cream cheese",
+        "qty": 1,
+        "unitPrice": 31000,
+        "subtotal": 31000
+      }
+    ],
+    "total": 31000,
+    "fulfillment": {
+      "method": "pickup"
+    },
+    "paymentStatus": "menunggu_pembayaran",
+    "fulfillmentStatus": "baru",
+    "createdAt": "2026-10-05T16:38:25.488Z"
+  },
+  {
+    "id": "KT-20261005-EB7517",
+    "idempotencyKey": "3403a1e8-54c8-40c8-9486-236571094b10",
+    "items": [
+      {
+        "name": "Cendol · Regular, Normal, Less ice, Cream cheese",
+        "qty": 1,
+        "unitPrice": 31000,
+        "subtotal": 31000
+      }
+    ],
+    "total": 31000,
+    "fulfillment": {
+      "method": "pickup"
+    },
+    "paymentStatus": "menunggu_pembayaran",
+    "fulfillmentStatus": "baru",
+    "createdAt": "2026-10-05T16:40:11.272Z"
+  },
+  {
+    "id": "KT-20261005-0F8C35",
+    "idempotencyKey": "81efe682-77cd-477f-8ef7-91d49f1c2172",
+    "items": [
+      {
+        "name": "Tea · Regular, Normal, Normal ice, Tanpa topping",
+        "qty": 1,
+        "unitPrice": 22000,
+        "subtotal": 22000
+      }
+    ],
+    "total": 22000,
+    "fulfillment": {
+      "method": "pickup"
+    },
+    "paymentStatus": "menunggu_pembayaran",
+    "fulfillmentStatus": "baru",
+    "createdAt": "2026-10-05T16:54:29.667Z"
+  },
+  {
+    "id": "KT-20261005-D30605",
+    "idempotencyKey": "51844e38-cbce-4053-9436-2cbbca2315f4",
+    "items": [
+      {
+        "name": "Tea · Regular, Normal, Normal ice, Tanpa topping",
+        "qty": 1,
+        "unitPrice": 22000,
+        "subtotal": 22000
+      }
+    ],
+    "total": 22000,
+    "fulfillment": {
+      "method": "pickup"
+    },
+    "paymentStatus": "menunggu_pembayaran",
+    "fulfillmentStatus": "baru",
+    "createdAt": "2026-10-05T16:54:35.354Z"
+  },
+  {
+    "id": "KT-20261005-9FECE3",
+    "idempotencyKey": "0b239f1a-f78f-4974-93d5-5970950d949d",
+    "items": [
+      {
+        "name": "Tea · Regular, Normal, Normal ice, Tanpa topping",
+        "qty": 1,
+        "unitPrice": 22000,
+        "subtotal": 22000
+      }
+    ],
+    "total": 22000,
+    "fulfillment": {
+      "method": "pickup"
+    },
+    "paymentStatus": "menunggu_pembayaran",
+    "fulfillmentStatus": "baru",
+    "createdAt": "2026-10-05T16:54:36.679Z"
+  },
+  {
+    "id": "KT-20261005-33A295",
+    "idempotencyKey": "f9d22157-6949-4d10-a539-0a04ba31c3ca",
+    "items": [
+      {
+        "name": "Tea · Regular, Normal, Normal ice, Tanpa topping",
+        "qty": 1,
+        "unitPrice": 22000,
+        "subtotal": 22000
+      }
+    ],
+    "total": 22000,
+    "fulfillment": {
+      "method": "pickup"
+    },
+    "paymentStatus": "menunggu_pembayaran",
+    "fulfillmentStatus": "baru",
+    "createdAt": "2026-10-05T16:54:36.892Z"
+  },
+  {
+    "id": "KT-20261005-C954B6",
+    "idempotencyKey": "b1e595a5-f3a1-4437-9b43-dd93418ac3f7",
+    "items": [
+      {
+        "name": "Tea · Regular, Normal, Normal ice, Tanpa topping",
+        "qty": 1,
+        "unitPrice": 22000,
+        "subtotal": 22000
+      }
+    ],
+    "total": 22000,
+    "fulfillment": {
+      "method": "pickup"
+    },
+    "paymentStatus": "menunggu_pembayaran",
+    "fulfillmentStatus": "baru",
+    "createdAt": "2026-10-05T16:54:37.114Z"
+  },
+  {
+    "id": "KT-20261005-75472A",
+    "idempotencyKey": "dbc6fa89-1be0-4d73-843f-191bf613141d",
+    "items": [
+      {
+        "name": "Tea · Regular, Normal, Normal ice, Tanpa topping",
+        "qty": 3,
+        "unitPrice": 22000,
+        "subtotal": 66000
+      }
+    ],
+    "total": 66000,
+    "fulfillment": {
+      "method": "pickup"
+    },
+    "paymentStatus": "menunggu_pembayaran",
+    "fulfillmentStatus": "baru",
+    "createdAt": "2026-10-05T16:55:04.440Z"
+  },
+  {
+    "id": "KT-20261005-EA9F86",
+    "idempotencyKey": "777cb313-bc55-4498-927b-ae002e626b2e",
+    "items": [
+      {
+        "name": "Matcha · Regular, Normal, Normal ice, Tanpa topping",
+        "qty": 1,
+        "unitPrice": 24000,
+        "subtotal": 24000
+      },
+      {
+        "name": "Tea · Regular, Less sugar, Normal ice, Tanpa topping",
+        "qty": 1,
+        "unitPrice": 22000,
+        "subtotal": 22000
+      }
+    ],
+    "total": 46000,
+    "fulfillment": {
+      "method": "pickup",
+      "name": "jojo",
+      "phone": "085770539757",
+      "address": "kepo",
+      "note": ""
+    },
+    "paymentStatus": "menunggu_pembayaran",
+    "fulfillmentStatus": "baru",
+    "createdAt": "2026-10-05T17:13:44.151Z"
+  },
+  {
+    "id": "KT-20261005-0586C2",
+    "idempotencyKey": "0ab7febe-d996-4e1b-97be-5341bf4e07e6",
+    "items": [
+      {
+        "name": "Matcha · Regular, Normal, Normal ice, Tanpa topping",
+        "qty": 1,
+        "unitPrice": 24000,
+        "subtotal": 24000
+      },
+      {
+        "name": "Tea · Regular, Less sugar, Normal ice, Tanpa topping",
+        "qty": 1,
+        "unitPrice": 22000,
+        "subtotal": 22000
+      }
+    ],
+    "total": 46000,
+    "fulfillment": {
+      "method": "pickup",
+      "name": "jojo",
+      "phone": "085770539757",
+      "address": "kepo",
+      "note": ""
+    },
+    "paymentStatus": "menunggu_pembayaran",
+    "fulfillmentStatus": "baru",
+    "createdAt": "2026-10-05T17:14:28.283Z"
+  },
+  {
+    "id": "KT-20261006-05C7C7",
+    "idempotencyKey": "3147497f-5b05-4f48-94a8-c28c75e4bb7f",
+    "items": [
+      {
+        "name": "Matcha · Regular, Normal, No ice, Boba",
+        "qty": 1,
+        "unitPrice": 29000,
+        "subtotal": 29000
+      },
+      {
+        "name": "Tea · Regular, Normal, Normal ice, Cream cheese",
+        "qty": 1,
+        "unitPrice": 28000,
+        "subtotal": 28000
+      },
+      {
+        "name": "Cendol · Large, Normal, Normal ice, Cream cheese",
+        "qty": 1,
+        "unitPrice": 35000,
+        "subtotal": 35000
+      }
+    ],
+    "subtotal": 92000,
+    "deliveryFee": 8000,
+    "total": 100000,
+    "fulfillment": {
+      "method": "delivery",
+      "name": "ros",
+      "phone": "087636363636",
+      "address": "Blok G2, Maher Residence, Jl. Cendrawasih No.82, Tajurhalang, Kec. Tajur Halang, Kabupaten Bogor, Jawa Barat 16740",
+      "note": ""
+    },
+    "paymentStatus": "menunggu_pembayaran",
+    "fulfillmentStatus": "baru",
+    "createdAt": "2026-10-06T04:13:36.288Z"
+  },
+  {
+    "id": "KT-20261006-F174EE",
+    "idempotencyKey": "c1357f31-336c-4b60-935c-5526767afda0",
+    "items": [
+      {
+        "name": "Matcha · Regular, Normal, No ice, Boba",
+        "qty": 1,
+        "unitPrice": 29000,
+        "subtotal": 29000
+      },
+      {
+        "name": "Tea · Regular, Normal, Normal ice, Cream cheese",
+        "qty": 1,
+        "unitPrice": 28000,
+        "subtotal": 28000
+      },
+      {
+        "name": "Cendol · Large, Normal, Normal ice, Cream cheese",
+        "qty": 1,
+        "unitPrice": 35000,
+        "subtotal": 35000
+      }
+    ],
+    "subtotal": 92000,
+    "deliveryFee": 8000,
+    "total": 100000,
+    "fulfillment": {
+      "method": "delivery",
+      "name": "ros",
+      "phone": "087636363636",
+      "address": "Blok G2, Maher Residence, Jl. Cendrawasih No.82, Tajurhalang, Kec. Tajur Halang, Kabupaten Bogor, Jawa Barat 16740",
+      "note": ""
+    },
+    "paymentStatus": "menunggu_pembayaran",
+    "fulfillmentStatus": "baru",
+    "createdAt": "2026-10-06T04:13:37.476Z"
+  },
+  {
+    "id": "KT-20261006-96B76F",
+    "idempotencyKey": "5258c554-ab84-4ee6-bcbd-409f82b76327",
+    "items": [
+      {
+        "name": "Matcha · Regular, Normal, No ice, Boba",
+        "qty": 1,
+        "unitPrice": 29000,
+        "subtotal": 29000
+      },
+      {
+        "name": "Tea · Regular, Normal, Normal ice, Cream cheese",
+        "qty": 1,
+        "unitPrice": 28000,
+        "subtotal": 28000
+      },
+      {
+        "name": "Cendol · Large, Normal, Normal ice, Cream cheese",
+        "qty": 1,
+        "unitPrice": 35000,
+        "subtotal": 35000
+      }
+    ],
+    "subtotal": 92000,
+    "deliveryFee": 8000,
+    "total": 100000,
+    "fulfillment": {
+      "method": "delivery",
+      "name": "ros",
+      "phone": "087636363636",
+      "address": "Blok G2, Maher Residence, Jl. Cendrawasih No.82, Tajurhalang, Kec. Tajur Halang, Kabupaten Bogor, Jawa Barat 16740",
+      "note": ""
+    },
+    "paymentStatus": "menunggu_pembayaran",
+    "fulfillmentStatus": "baru",
+    "createdAt": "2026-10-06T04:13:38.151Z"
+  },
+  {
+    "id": "KT-20261006-DB9284",
+    "idempotencyKey": "d9183069-9e13-4fff-ab88-1ab9ad7f38f1",
+    "items": [
+      {
+        "name": "Matcha · Regular, Normal, No ice, Boba",
+        "qty": 1,
+        "unitPrice": 29000,
+        "subtotal": 29000
+      },
+      {
+        "name": "Tea · Regular, Normal, Normal ice, Cream cheese",
+        "qty": 1,
+        "unitPrice": 28000,
+        "subtotal": 28000
+      },
+      {
+        "name": "Cendol · Large, Normal, Normal ice, Cream cheese",
+        "qty": 1,
+        "unitPrice": 35000,
+        "subtotal": 35000
+      }
+    ],
+    "subtotal": 92000,
+    "deliveryFee": 8000,
+    "total": 100000,
+    "fulfillment": {
+      "method": "delivery",
+      "name": "ros",
+      "phone": "087636363636",
+      "address": "Blok G2, Maher Residence, Jl. Cendrawasih No.82, Tajurhalang, Kec. Tajur Halang, Kabupaten Bogor, Jawa Barat 16740",
+      "note": ""
+    },
+    "paymentStatus": "menunggu_pembayaran",
+    "fulfillmentStatus": "baru",
+    "createdAt": "2026-10-06T04:13:38.570Z"
+  },
+  {
+    "id": "KT-20261006-567FBC",
+    "idempotencyKey": "9e52c143-eeab-48b8-9f5c-486d49785146",
+    "items": [
+      {
+        "name": "Matcha · Regular, Normal, No ice, Boba",
+        "qty": 1,
+        "unitPrice": 29000,
+        "subtotal": 29000
+      },
+      {
+        "name": "Tea · Regular, Normal, Normal ice, Cream cheese",
+        "qty": 1,
+        "unitPrice": 28000,
+        "subtotal": 28000
+      },
+      {
+        "name": "Cendol · Large, Normal, Normal ice, Cream cheese",
+        "qty": 1,
+        "unitPrice": 35000,
+        "subtotal": 35000
+      }
+    ],
+    "subtotal": 92000,
+    "deliveryFee": 8000,
+    "total": 100000,
+    "fulfillment": {
+      "method": "delivery",
+      "name": "ros",
+      "phone": "087636363636",
+      "address": "Blok G2, Maher Residence, Jl. Cendrawasih No.82, Tajurhalang, Kec. Tajur Halang, Kabupaten Bogor, Jawa Barat 16740",
+      "note": ""
+    },
+    "paymentStatus": "menunggu_pembayaran",
+    "fulfillmentStatus": "baru",
+    "createdAt": "2026-10-06T04:13:40.212Z"
+  },
+  {
+    "id": "KT-20261006-4B1D49",
+    "idempotencyKey": "06d4bafb-fa6e-4480-86f1-c8bbb12e37a3",
+    "items": [
+      {
+        "name": "Matcha · Regular, Normal, No ice, Boba",
+        "qty": 1,
+        "unitPrice": 29000,
+        "subtotal": 29000
+      },
+      {
+        "name": "Tea · Regular, Normal, Normal ice, Cream cheese",
+        "qty": 1,
+        "unitPrice": 28000,
+        "subtotal": 28000
+      },
+      {
+        "name": "Cendol · Large, Normal, Normal ice, Cream cheese",
+        "qty": 1,
+        "unitPrice": 35000,
+        "subtotal": 35000
+      }
+    ],
+    "subtotal": 92000,
+    "deliveryFee": 8000,
+    "total": 100000,
+    "fulfillment": {
+      "method": "delivery",
+      "name": "ros",
+      "phone": "087636363636",
+      "address": "Blok G2, Maher Residence, Jl. Cendrawasih No.82, Tajurhalang, Kec. Tajur Halang, Kabupaten Bogor, Jawa Barat 16740",
+      "note": ""
+    },
+    "paymentStatus": "menunggu_pembayaran",
+    "fulfillmentStatus": "baru",
+    "createdAt": "2026-10-06T04:13:41.337Z"
+  },
+  {
+    "id": "KT-20261006-7FC139",
+    "idempotencyKey": "f1d4a228-17a3-45bf-8b38-59b22b06fbfa",
+    "items": [
+      {
+        "name": "Matcha · Regular, Normal, No ice, Boba",
+        "qty": 1,
+        "unitPrice": 29000,
+        "subtotal": 29000
+      },
+      {
+        "name": "Tea · Regular, Normal, Normal ice, Cream cheese",
+        "qty": 1,
+        "unitPrice": 28000,
+        "subtotal": 28000
+      },
+      {
+        "name": "Cendol · Large, Normal, Normal ice, Cream cheese",
+        "qty": 1,
+        "unitPrice": 35000,
+        "subtotal": 35000
+      }
+    ],
+    "subtotal": 92000,
+    "deliveryFee": 8000,
+    "total": 100000,
+    "fulfillment": {
+      "method": "delivery",
+      "name": "ros",
+      "phone": "087636363636",
+      "address": "Blok G2, Maher Residence, Jl. Cendrawasih No.82, Tajurhalang, Kec. Tajur Halang, Kabupaten Bogor, Jawa Barat 16740",
+      "note": ""
+    },
+    "paymentStatus": "menunggu_pembayaran",
+    "fulfillmentStatus": "baru",
+    "createdAt": "2026-10-06T04:13:42.388Z"
+  },
+  {
+    "id": "KT-20261006-69B4B9",
+    "idempotencyKey": "d8e72754-7c7b-46f0-a98e-11a12c9e9da5",
+    "items": [
+      {
+        "name": "Matcha · Regular, Normal, No ice, Boba",
+        "qty": 1,
+        "unitPrice": 29000,
+        "subtotal": 29000
+      },
+      {
+        "name": "Tea · Regular, Normal, Normal ice, Cream cheese",
+        "qty": 1,
+        "unitPrice": 28000,
+        "subtotal": 28000
+      },
+      {
+        "name": "Cendol · Large, Normal, Normal ice, Cream cheese",
+        "qty": 1,
+        "unitPrice": 35000,
+        "subtotal": 35000
+      }
+    ],
+    "subtotal": 92000,
+    "deliveryFee": 8000,
+    "total": 100000,
+    "fulfillment": {
+      "method": "delivery",
+      "name": "ros",
+      "phone": "087636363636",
+      "address": "Blok G2, Maher Residence, Jl. Cendrawasih No.82, Tajurhalang, Kec. Tajur Halang, Kabupaten Bogor, Jawa Barat 16740",
+      "note": ""
+    },
+    "paymentStatus": "menunggu_pembayaran",
+    "fulfillmentStatus": "baru",
+    "createdAt": "2026-10-06T04:13:44.066Z"
+  },
+  {
+    "id": "KT-20261006-321748",
+    "idempotencyKey": "507edf84-ecad-4f29-af89-d22c5da10a2c",
+    "items": [
+      {
+        "name": "Matcha · Regular, Normal, No ice, Boba",
+        "qty": 1,
+        "unitPrice": 29000,
+        "subtotal": 29000
+      },
+      {
+        "name": "Tea · Regular, Normal, Normal ice, Cream cheese",
+        "qty": 1,
+        "unitPrice": 28000,
+        "subtotal": 28000
+      },
+      {
+        "name": "Cendol · Large, Normal, Normal ice, Cream cheese",
+        "qty": 1,
+        "unitPrice": 35000,
+        "subtotal": 35000
+      }
+    ],
+    "subtotal": 92000,
+    "deliveryFee": 8000,
+    "total": 100000,
+    "fulfillment": {
+      "method": "delivery",
+      "name": "ros",
+      "phone": "087636363636",
+      "address": "Blok G2, Maher Residence, Jl. Cendrawasih No.82, Tajurhalang, Kec. Tajur Halang, Kabupaten Bogor, Jawa Barat 16740",
+      "note": ""
+    },
+    "paymentStatus": "menunggu_pembayaran",
+    "fulfillmentStatus": "baru",
+    "createdAt": "2026-10-06T04:13:45.156Z"
+  },
+  {
+    "id": "KT-20261006-909D8F",
+    "idempotencyKey": "bd9a7854-9972-48e6-850a-ecd7c6f48a74",
+    "items": [
+      {
+        "name": "Matcha · Regular, Normal, Normal ice, Tanpa topping",
+        "qty": 1,
+        "unitPrice": 24000,
+        "subtotal": 24000
+      }
+    ],
+    "subtotal": 24000,
+    "deliveryFee": 0,
+    "total": 24000,
+    "fulfillment": {
+      "method": "pickup",
+      "name": "jojo",
+      "phone": "086791919199",
+      "address": "",
+      "note": ""
+    },
+    "paymentStatus": "menunggu_pembayaran",
+    "fulfillmentStatus": "baru",
+    "createdAt": "2026-10-06T16:51:54.637Z"
+  }
+]

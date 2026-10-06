@@ -1,4 +1,5 @@
-.env
 node_modules/
-data/orders.json
-data/analytics.jsonl
+.data/
+.env
+*.log
+*.pdf
